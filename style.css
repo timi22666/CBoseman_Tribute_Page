@@ -1,0 +1,101 @@
+* {
+    text-align: center;
+}
+body {
+    border: 3em solid #0a422b;
+    border-top: 0em;
+    margin: 0px;
+    background-color: #011627;
+    color: #fdfffc;
+    
+    }
+
+    #main {
+        
+        display: block;
+        margin: 0 auto;
+        width: 90vw;
+        padding: 5px;
+    }
+    #lived {
+      text-align: center;
+    }
+        
+        p {
+            line-height: 1.4rem;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', sans-serif;
+            text-align:justify;
+            margin: 2em;
+            
+        }
+    #img-div {
+        display: block;
+        margin: 0 auto;
+        width: 640px;
+        height: auto;
+      }
+      
+      #img-div img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 55%;
+      }
+      
+      #img-caption {
+      position:inherit;
+        padding-top: 10px;
+        color: rgb(34, 34, 34);
+      
+      }
+  
+  #personalQoutes {
+    line-height: 1.4rem;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 30px 30px 50px 30px;
+  }
+   li {
+    list-style-type: none;
+    margin: 2em;
+   }
+  
+   q::before,
+   q::after {
+     animation: dancing 1s linear infinite;
+     display: inline-block;
+     transform: rotate(13deg);
+   }
+   @keyframes dancing {
+    0% {
+      transform: rotate(13deg) scale(2);
+    }
+  
+    50% {
+      transform: rotate(-13deg) scale(2);
+    }
+
+    100% {
+      transform: rotate(13deg) scale(2);
+    }
+  }
+    footer {
+      font-size: 2rem;
+      color: brown;
+      display: block;
+      clear: both;
+      padding: 0.5rem;
+      background-color: rgb(6, 35, 59);
+      
+    }
+#tribute-link {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+}
